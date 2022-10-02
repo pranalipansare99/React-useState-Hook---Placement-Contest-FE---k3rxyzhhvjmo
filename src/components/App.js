@@ -17,14 +17,13 @@ const App=()=>{
  
   return (
     <div>
-   <label for="input"></label>
-  <input id='input' value={inputValue} onChange={changeInput} />
+   
+  <input id="" type="text" value={input} onChange={handleChange} />
   
       <p id='intro'>Concated String</p>
       <p id='text'>{text} </p>
-      <button id='button' onClick={handleSubmit}>Submit>
-        Click me
-      </button>
+      <button id="" onClick={handleSubmit}>Submit </button>
+     
  <p>{term}</p>
     </div>
   );
