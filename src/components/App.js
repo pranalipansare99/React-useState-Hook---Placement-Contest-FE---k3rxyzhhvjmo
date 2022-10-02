@@ -8,6 +8,7 @@ export default function App() {
  
   return (
     <div>
+   <label for="input"></label>
   <input id='input' value={inputValue} onChange={changeInput} />
   
       <p id='intro'>Concated String</p>
