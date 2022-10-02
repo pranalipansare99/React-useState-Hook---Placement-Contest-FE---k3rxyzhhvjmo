@@ -3,25 +3,25 @@ import '../styles/App.css';
 import React, { useState } from 'react';
 
 // export default function App() {
-export default function App=()=>{
- const[input,setInput]=useState(");
-   const[term,setTerm ]=useState(");
-    const handleChange=(e)=>{
-  setInput(e.target.value);
+export default function App(){
+ const[inputValue,setInput]=useState(' ');
+   const[text,setText ]=useState(' ');
+    const changeInput=(e)=>{
+  setInputvalue(e.target.value);
  }
- const handleSubmit=(e)=>{
-  setTerm(term+input);
-  setInput(");
+ const buttonClick=()=>{
+  setText(prev)=>prev+inputValue):
+  setInputvalue(' ');
            }
  
   return (
     <div>
    
-  <input id="input" type="text" value={input} onChange={handleChange} />
+  <input id="input" type="text" value={inputValue} onChange={(e)=>changeInput(e)} />
   
       <p id='intro'>Concated String</p>
       <p id='text'>{text} </p>
-      <button id="button" onClick={handleSubmit}>Submit </button>
+      <button id="button" onClick={ ()=>buttonClick()}>Click me </button>
      
  <p>{term}</p>
     </div>
