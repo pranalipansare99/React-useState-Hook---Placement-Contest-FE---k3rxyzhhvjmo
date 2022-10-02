@@ -10,7 +10,6 @@ export default function App=()=>{
   setInput(e.target.value);
  }
  const handleSubmit=(e)=>{
-  e.preventDefault():
   setTerm(term+input);
   setInput(");
            }
@@ -18,11 +17,11 @@ export default function App=()=>{
   return (
     <div>
    
-  <input id="" type="text" value={input} onChange={handleChange} />
+  <input id="input" type="text" value={input} onChange={handleChange} />
   
       <p id='intro'>Concated String</p>
       <p id='text'>{text} </p>
-      <button id="" onClick={handleSubmit}>Submit </button>
+      <button id="button" onClick={handleSubmit}>Submit </button>
      
  <p>{term}</p>
     </div>
