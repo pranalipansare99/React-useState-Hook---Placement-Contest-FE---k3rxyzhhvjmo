@@ -4,26 +4,26 @@ import React, { useState } from 'react';
 
 // export default function App() {
 export default function App(){
- const[inputValue,setInput]=useState(' ');
+ const[inputValue,setInputvalue]=useState(' ');
    const[text,setText ]=useState(' ');
     const changeInput=(e)=>{
   setInputvalue(e.target.value);
  }
  const buttonClick=()=>{
-  setText(prev)=>prev+inputValue):
+  setText((prev)=>prev+inputValue):
   setInputvalue(' ');
            }
  
   return (
     <div>
    
-  <input id="input" type="text" value={inputValue} onChange={(e)=>changeInput(e)} />
+  <input id="input" value={inputValue} onChange={(e)=>changeInput(e)} />
   
       <p id='intro'>Concated String</p>
       <p id='text'>{text} </p>
       <button id="button" onClick={ ()=>buttonClick()}>Click me </button>
      
- <p>{term}</p>
+
     </div>
   );
 }
