@@ -3,7 +3,7 @@ import '../styles/App.css';
 import React, { useState } from 'react';
 
 // export default function App() {
-const App=()=>{
+export default function App=()=>{
  const[input,setInput]=useState(");
    const[term,setTerm ]=useState(");
     const handleChange=(e)=>{
